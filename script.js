@@ -10,6 +10,12 @@ import fadeInAnimation from "./GSAP/fadeInAnimation.js";
 // Nav Scripts
 import lightboxLink from "./nav/lightboxLink.js";
 import disablePageScrolling from "./nav/disablePageScrolling.js";
+// Footer Scripts
+import copyrightYear from "./footer/copyrightYear.js";
+
+// Nav Scripts
+lightboxLink();
+disablePageScrolling();
 
 numberWithZero();
 preloader();
@@ -21,6 +27,5 @@ videoZoomGSAP();
 qrPhoneMovementGSAP();
 fadeInAnimation();
 
-// Nav Scripts
-lightboxLink();
-disablePageScrolling();
+// Footer Scripts
+copyrightYear();
