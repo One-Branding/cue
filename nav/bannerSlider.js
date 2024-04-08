@@ -5,7 +5,7 @@ export default function bannerSlider() {
       autoplay: {
         delay: 10000,
       },
-      loop: true,
+      loop: false,
       autoHeight: true,
       centeredSlides: false,
       followFinger: false,
